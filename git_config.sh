@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "git config --global core.editor vi"
-echo "git config --global color.ui true"
-echo "git config --global core.autocrlf true"
+git config --global core.editor vi
+git config --global color.ui true
+git config --global core.autocrlf true
 
-#echo "git config --global log.decorate full"
+git config --global log.decorate full
