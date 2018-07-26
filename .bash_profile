@@ -1,13 +1,11 @@
-# Chef assumes that it owns this file.
-# Additions to bash should be placed into /Users/Victor/.bash_profile_includes with a .sh extension
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH 
+export PATH=~/.local/bin:$PATH
+export HISTSIZE=99999999999999
 
-for file in ~/.bash_profile_includes/*.sh; do
-  [[ -r $file ]] && source $file;
-done
+alias gg="git grep --color -ni"
+alias ll='ls -lG'
 
-HISTFILESIZE=1000000000
-HISTSIZE=1000000
-
-CLICOLOR=1
-LSCOLORS=gxfxcxdxbxegedabagacad
-export TERM=xterm-color
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"

@@ -1,0 +1,34 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"default_line_ending": "unix",
+	"error_color": "D02000",
+	"font_size": 12,
+	"highlight_trailing_whitespace": true,
+	"highlight_trailing_whitespace_non_cursor": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"lint_mode": "background",
+	"linters":
+	{
+		"tslint":
+		{
+			"@disable": false,
+			"args":
+			[
+			],
+			"excludes":
+			[
+			]
+		}
+	},
+	"mark_style": "fill",
+	"no_column_highlights_line": false,
+	"passive_warnings": false,
+	"show_errors_on_save": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"warning_color": "DDB700",
+	"word_wrap": "false"
+}

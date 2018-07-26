@@ -1,0 +1,7 @@
+// These settings override both User and Default settings for the RSpec syntax
+{
+    "rulers": [80, 120],
+     // The number of spaces a tab is considered equal to
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true,
+}
